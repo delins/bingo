@@ -150,6 +150,6 @@ if __name__ == '__main__':
 
 	p = Page(args.output, font_type=args.font_type, font_size=args.font_size)
 	p.canvas.setTitle(args.output)
-	p.draw_grid()
+	#p.draw_grid()
 	p.draw()
 	p.save()
